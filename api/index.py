@@ -31,5 +31,3 @@ class handler(BaseHTTPRequestHandler):
         # Write the JSON response body
         self.wfile.write(json.dumps(response).encode('utf-8'))
         return
-
-
